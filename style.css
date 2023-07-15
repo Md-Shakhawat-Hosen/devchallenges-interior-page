@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181719;
+    
+}
+body{
+    padding: 42px 77px 0px 77px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menus ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus ul li{
+    list-style: none;
+    /* padding: 10px 20px; */
+    margin-right: 86px;
+}
+.menus ul li:last-child{
+    margin-right: 0px;
+}
+.menus ul li a{
+    text-decoration: none;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+.logo{
+    border: 1px solid #fff;
+    width: max-content;
+    color: #FFF
+}
+.logo h5{
+    padding: 8px;
+    color: #FFF;
+font-family: Crimson Pro;
+font-size: 14px;
+font-weight: 200;
+text-transform: uppercase;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 221px;
+    margin-bottom: 250px;
+}
+
+.right-banner{
+    width: 750px;
+    height: 570px;
+    background-image: url('./images/photo1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+
+.interior-title{
+    color: #FFF;
+font-family: Lora;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+}
+.interior-description{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin-top: 44px;
+margin-bottom: 48px;
+}
+.btn{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 0;
+}
+.fa-solid{
+ margin-left: 11px;
+}
+
+.card-photo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-photo img{
+    width: 85px;
+    height: 72px;
+    border-radius: 50%;
+}
+.name h4{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.name h6{
+    color: var(--gray-3, #828282);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.card{
+    background-color: #181719;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 410px;
+    height: 189px;
+    position: absolute;
+    /* top: -90px;
+    left: 300px; */
+    top: 470px;
+    left: 250px;
+    
+    padding: 23px;
+
+}
+.design-title{
+    color: #FFF;
+font-family: Lora;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 11px;
+}
+.foot{
+    color: #A9A9A9;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 24px;
+text-align: center;
+}
+span a{
+    color: #A9A9A9;
+}
